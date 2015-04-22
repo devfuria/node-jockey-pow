@@ -16,8 +16,8 @@ Instalando...
 Rodando os testes...
 
     cd /node-jockey-pow
-    npm install mocha
-    mocha --ui tdd
+    npm install
+    npm test
 
 Nota...
 
