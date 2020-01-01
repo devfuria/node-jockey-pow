@@ -36,28 +36,13 @@ suite('Auxiliares,', function(){
   suite('getJanken()', function(){
     test('deve retornar o janken', function(){
         
-      var arg = [];
-      arg[0] = "";
-      arg[1] = "";
-
-      arg[2] = "pedra";
-      assert.equal("pedra", jockeyPow.getJanken(arg));
-
-      arg[2] = "papel";
-      assert.equal("papel", jockeyPow.getJanken(arg));
-
-      arg[2] = "tesoura";
-      assert.equal("tesoura", jockeyPow.getJanken(arg));
-
+      assert.equal("pedra", jockeyPow.getJanken("pedra"));
+      assert.equal("papel", jockeyPow.getJanken("papel"));
+      assert.equal("tesoura", jockeyPow.getJanken("tesoura"));
 
     });
     test('deve retornar undefined caso não exista', function(){
-        
-      var arg = [];
-      arg[0] = "";
-      arg[1] = "";
-
-      assert.equal(undefined, jockeyPow.getJanken(arg));
+      assert.equal(undefined, jockeyPow.getJanken());
     });
     test('deve retornar undefined caso não seja "pedra", "papel" ou "tesoura"', function(){
         
