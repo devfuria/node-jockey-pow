@@ -58,13 +58,20 @@ jockeyPow.vencedor = function (janken1, janken2) {
 //
 // Aqui começa o jogo
 //
-if (process.argv[2] === undefined) {
+var escolha = process.argv[2];
+
+if (escolha === undefined) {
+    console.log("Escolha  entre pedra, papel ou tesoura !");
+    process.exit(1);
+}
+
+if ( !["pedra", "papel", "tesoura"].includes(escolha) ) {
     console.log("Precisa escolher entre pedra, papel ou tesoura !");
-   process.exit(1);
+    process.exit(1);
 }
 
 // anotar a escolha do jogador
-player.janken = jockeyPow.getJanken(process.argv);
+player.janken = jockeyPow.getJanken(escolha);
 
 // anotar a escolha do cpu (randômica)
 cpu.janken = jockeyPow.getJankenRandom();
