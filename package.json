@@ -6,10 +6,10 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "^7.0.1"
+  "dependencies": {
+    "mocha": "^8.2.1"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "mocha --ui tdd"
   },
