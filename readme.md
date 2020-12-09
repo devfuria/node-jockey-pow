@@ -19,8 +19,9 @@ Rodando os testes...
     npm install
     npm test
 
-Nota...
+![tests](https://user-images.githubusercontent.com/1257048/101559409-d6b98d80-399f-11eb-85b9-3f4b92777676.png)
 
-Acho que cometi alguns pecados, se quiser apontar algum, fique à vontade (abra uma issue).
+
+Nota: Acho que cometi alguns pecados, se quiser apontar algum, fique à vontade (abra uma issue).
 
 ![pedra-papel-tesoura-02](https://user-images.githubusercontent.com/1257048/101557687-44fc5100-399c-11eb-94c5-02f8a72c4463.jpg)
