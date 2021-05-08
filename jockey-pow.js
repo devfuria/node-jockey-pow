@@ -1,3 +1,8 @@
+var jockeyPow = require('./app.js');
+
+var player    = {};
+var cpu       = {};
+
 //
 // Versão no terminal (interação com usuáro)
 //

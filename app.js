@@ -2,8 +2,6 @@
 // No Japão, "pedra, papel, tesoura" é chamado simplesmente de "Janken".
 //
 var jockeyPow = {};
-var player    = {};
-var cpu       = {};
 
 //
 // Função que analisa `process.argv` e retorna o janken
@@ -53,9 +51,4 @@ jockeyPow.vencedor = function (janken1, janken2) {
     }
 }
 
-//
-// Ajustes para ser exportado
-//
-jockeyPow.player = player;
-jockeyPow.cpu    = cpu;
 module.exports   = jockeyPow;
